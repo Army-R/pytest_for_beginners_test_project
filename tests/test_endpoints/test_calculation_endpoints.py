@@ -2,7 +2,6 @@ from starlette.testclient import TestClient
 
 from main import app
 
-
 class TestCalculationEndpoints:
     def test_return_sum(self):
         test_data = {
